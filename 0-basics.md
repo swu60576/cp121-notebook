@@ -72,7 +72,7 @@ let cSum = cSum + a + b;
 ก็จะเข้าเรื่องที่สองของบทนี้แล้ว
 
 ## order of evaluation
-> ถ้าจำได้ ตอนที่เรียนเลข ก็จะมีเรื่องอย่าง คิด คูณหาร ก่อน บวกลบ ซึ่ง ในการเขียนโปรแกรมก็มีอะไรอย่างนั้นเหมือนกัน <br />[อะไรอย่างนั้นที่ว่า](https://docs.microsoft.com/en-us/cpp/c-language/precedence-and-order-of-evaluation?view=vs-2019)
+> ถ้าจำได้ ตอนที่เรียนเลข ก็จะมีเรื่องอย่าง ต้องคิด คูณหาร ก่อน บวกลบ ซึ่งในการเขียนโปรแกรมก็มีอะไรอย่างนั้นเหมือนกัน <br />[อะไรอย่างนั้นที่ว่า](https://docs.microsoft.com/en-us/cpp/c-language/precedence-and-order-of-evaluation?view=vs-2019)
 
 
 
