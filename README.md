@@ -10,9 +10,9 @@
 ### 3. object
 ### 4. operators
 ## 2. function
-### no return function
-### return function
-### recursive function
+### 1. no return function
+### 2. return function
+### 3. recursive function
 ## 3. logical operation ( if - else )
 ### basic if else if else
 ### nested
