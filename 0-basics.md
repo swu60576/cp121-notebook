@@ -61,7 +61,7 @@ print(a + c)
 ```
 ดังนั้นเเรื่องสำคัญของการประกาศตัวแปรหลักๆ ก็จะมีอย่าง
 * ได้ error / ค่ามั่วออกมา -> declare / initialize ตัวแปรรึยังนะ ?
-* ก็ initialize ตัวแปรไปแล้ว ทำไมมี error :thinking: -> พิมพ์ชิ่อตัวแปรถูกมั้ย ?
+* ก็ initialize ตัวแปรไปแล้ว ทำไมมี error นะ :thinking: -> พิมพ์ชิ่อตัวแปรถูกมั้ย ?
 
 ว่าแต่ ถ้างั้นแล้วทำไม
 ```javascript
@@ -70,6 +70,12 @@ let b = 6;
 let cSum = cSum + a + b;
 ```
 ถึงเกิด error ล่ะ ` let cSum = cSum + a + b;` ไม่ใช่การประกาศตัวแปร `cSum` หรอ ?
+
+ก็จะเข้าเรื่องที่สองของบทนี้แล้ว
+
+## order of evaluation
+> ถ้าจำได้ ตอนที่เรียนเลข ก็จะมีเรื่องอย่าง คิด คูณหาร ก่อน บวกลบ ซึ่ง ในการเขียนโปรแกรมก็มีอะไรอย่างนั้นเหมือนกัน
+> [อะไรอย่างนั้นที่ว่า](https://docs.microsoft.com/en-us/cpp/c-language/precedence-and-order-of-evaluation?view=vs-2019)
 
 
 
