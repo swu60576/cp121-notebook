@@ -36,7 +36,12 @@ print(word[1]);
   - กำหนดค่าให้ตัวแปรเรียบร้อย
 
 ```javascript
-let a; // a is declared
-let b = 5; // b is intialized
-print(c) // c is undeclared -> error
+let a; 
+// a is declared
+
+let b = 5; 
+// b is intialized
+
+print(c)
+// c is undeclared -> error
 ```
