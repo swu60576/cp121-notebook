@@ -2,7 +2,7 @@
 > update : all source code from lab1 - lab5 is uploaded
 ## 0. [basics](0-basics.md)
 * undeclared, declared, initialized
-* order of operation
+* order of evaluation
 ## 1. [datatypes and operators](1-data.md)
 * primitive
 * container
