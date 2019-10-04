@@ -1,6 +1,6 @@
 # cp121 notebook topics (that will be) covered
 > update : all source code from lab1 - lab5 is uploaded
-## 0. basics
+## 0. basics [basics](0-basics.md)
 _link_ [basics](0-basics.md)
 * undeclared, declared, initialized
 * order of operation
