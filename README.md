@@ -1,22 +1,22 @@
 # cp121 notebook topics (that will be) covered
 > update : all source code from lab1 - lab5 is uploaded
 ## 0. basics
-### 1. undeclared, declared, initialized
-### 1. order of operation
-### 1. statement
+### * undeclared, declared, initialized
+### * order of operation
+### * statement
 ## 1. datatypes and operators
-### 1. primitive
-### 2. container
-### 3. object
-### 4. operators
+### * primitive
+### * container
+### * object
+### * operators
 ## 2. function
 ### 1. no return function
 ### 2. return function
 ### 3. recursive function
 ## 3. logical operation ( if - else )
-### basic if else if else
-### nested
-### using compound logical statement
+### * basic if else if else
+### * nested
+### * using compound logical statement
 ## 4. iterative operations ( loop )
 ### 1. while loop
 ### 2. for loop
