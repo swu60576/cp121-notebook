@@ -19,6 +19,7 @@ print('a :' + a + ' b: ' + b);
 ```
 ## declaration
 > ทำไมถึงได้มี undefined error ขึ้นมากันนะ ?
+
 คอมพิวเตอร์จะจำแค่สิ่งที่เราพิมพ์ลงไปเท่านั้นแหละ เช่น 
 ```javascript
 words = ['hello', 'world'];
