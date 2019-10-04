@@ -13,7 +13,7 @@
 * no return function
 * return function
 * recursive function
-## 3. [logical operation](3-logical.md) ( if - else )
+## 3. [logical evaluation](3-logical.md) ( if - else )
 * basic if else if else
 * nested
 * using compound logical statement
