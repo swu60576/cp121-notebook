@@ -5,10 +5,10 @@
 ### * order of operation
 ### * statement
 ## 1. datatypes and operators
-### * primitive
-### * container
-### * object
-### * operators
+* primitive
+* container
+* object
+* operators
 ## 2. function
 ### 1. no return function
 ### 2. return function
