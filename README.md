@@ -2,8 +2,8 @@
 > update : all source code from lab1 - lab5 is uploaded
 ## 0. basics
 ### 1. undeclared, declared, initialized
-### 2. order of operation
-### 3. statement
+### 1. order of operation
+### 1. statement
 ## 1. datatypes and operators
 ### 1. primitive
 ### 2. container
