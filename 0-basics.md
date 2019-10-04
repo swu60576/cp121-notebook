@@ -1,11 +1,12 @@
 ## basics
 > เราจะพูดถึงเรื่องเบสิคสำคัญๆ สองเรื่อง ได้แก่ เรื่องของการประกาศตัวแปร กับ เรื่องของลำดับในการคำนวน เช่น
+> let เป็นหนึ่งใน มาตรฐานของ javascript es6 [ศึกษาเพิ่มเติมได้ที่นี่](https://microbenz.in.th/%E0%B8%99%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B5-2017-%E0%B9%81%E0%B8%A5%E0%B9%89%E0%B8%A7-%E0%B8%A1%E0%B8%B2%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99-es6-%E0%B8%81%E0%B8%B1%E0%B8%99-9dede81e30da)
 
 ทำไม
 ```javascript
-a = 5;
-b = 6;
-cSum = cSum + a + b;
+let a = 5;
+let b = 6;
+let cSum = cSum + a + b;
 ```
 ถึงเกิด error
 
@@ -13,8 +14,8 @@ cSum = cSum + a + b;
 
 ทำไม a กับ b ด้านล่างนี้ถึงไม่เท่ากัน
 ```javascript
-a = 1 / 5 * 2;
-b = ( 1 / 5 ) * 2;
+let a = 1 / 5 * 2;
+let b = ( 1 / 5 ) * 2;
 print('a :' + a + ' b: ' + b); 
 ```
 ## declaration
@@ -22,7 +23,7 @@ print('a :' + a + ' b: ' + b);
 
 คอมพิวเตอร์จะจำแค่สิ่งที่เราพิมพ์ลงไปเท่านั้นแหละ เช่น 
 ```javascript
-words = ['hello', 'world'];
+let words = ['hello', 'world'];
 print(word[1]);
 ```
 เห็น error ใช่มั้ย :) 
@@ -45,3 +46,10 @@ let b = 5;
 print(c)
 // c is undeclared -> error
 ```
+ถ้างั้นแล้วทำไม
+```javascript
+let a = 5;
+let b = 6;
+let cSum = cSum + a + b;
+```
+ถึงเกิด 
