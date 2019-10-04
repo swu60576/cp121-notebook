@@ -1,5 +1,5 @@
 # cp121 notebook topics (that will be) covered
->> update : all source code from lab1 - lab5 is uploaded
+> update : all source code from lab1 - lab5 is uploaded
 ## 0. basics
 ### 1. undeclared, declared, initialized
 ### 2. order of operations
