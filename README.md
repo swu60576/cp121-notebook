@@ -2,7 +2,7 @@
 > update : all source code from lab1 - lab5 is uploaded
 ## 0. basics
 ### 1. undeclared, declared, initialized
-### 2. order of operations
+### 2. order of operation
 ### 3. statement
 ## 1. datatypes and operators
 ### 1. primitive
@@ -14,6 +14,9 @@
 ### return function
 ### recursive function
 ## 3. logical operation ( if - else )
+### basic if else if else
+### nested
+### using compound logical statement
 ## 4. iterative operations ( loop )
 ### 1. while loop
 ### 2. for loop
