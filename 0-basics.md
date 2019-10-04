@@ -15,5 +15,12 @@ cSum = cSum + a + b;
 ```javascript
 a = 1 / 5 * 2;
 b = ( 1 / 5 ) * 2;
-write('a :' + a + ' b: ' + b); 
+print('a :' + a + ' b: ' + b); 
 ```
+## declaration
+> คอมพิวเตอร์จะจำแค่สิ่งที่เราพิมพ์ลงไปเท่านั้นแหละ เช่น 
+```javascript
+words = ['hello', 'world'];
+print(word[1]);
+```
+เห็น error ใช่มั้ย :) 
