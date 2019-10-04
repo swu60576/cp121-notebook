@@ -3,31 +3,31 @@
 ## 0. [basics](0-basics.md)
 * undeclared, declared, initialized
 * order of operation
-## 1. [datatypes and operators] (1-data.md)
+## 1. [datatypes and operators](1-data.md)
 * primitive
 * container
 * object
 * operators
 * statement
-## 2. function
+## 2. [function](2-function.md)
 * no return function
 * return function
 * recursive function
-## 3. logical operation ( if - else )
+## 3. [logical operation](3-logical.md) ( if - else )
 * basic if else if else
 * nested
 * using compound logical statement
-## 4. iterative operations ( loop )
+## 4. [iterative operations](4-iterative.md) ( loop )
 * while loop
 * for loop
 * comparison
-## 5. errors
+## 5. [errors](5-errors.md)
 * basics
 * datatypes and operators
 * function
 * if else
 * loop
-## 6. base numbers
+## 6. [base numbers](6-base.md)
 * decimal
 * binary
 * binary fraction
