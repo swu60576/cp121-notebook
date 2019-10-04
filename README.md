@@ -3,12 +3,12 @@
 ## 0. basics
 * undeclared, declared, initialized
 * order of operation
-* statement
 ## 1. datatypes and operators
 * primitive
 * container
 * object
 * operators
+* statement
 ## 2. function
 * no return function
 * return function
@@ -21,7 +21,13 @@
 * while loop
 * for loop
 * comparison
-## 5. base numbers
+## 5. errors
+* basics
+* datatypes and operators
+* function
+* if else
+* loop
+## 6. base numbers
 * decimal
 * binary
 * binary fraction
