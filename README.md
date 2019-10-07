@@ -1,12 +1,18 @@
 # cp121 notebook topics (that will be) covered
 > update : all source code from lab1 - lab5 is uploaded
-### raodmap:
+### raodmap สรุป
   - [x] basics
   - [ ] datatypes and operators
   - [ ] function
   - [ ] if-else
   - [ ] loop
   - [ ] base numbers
+### roadmap อธิบาย lap 
+  - [ ] lab1
+  - [ ] lab2
+  - [ ] lab3
+  - [ ] lab4
+  - [ ] lab5
 ## 0. [basics](0-basics.md)
 * undeclared, declared, initialized
 * order of evaluation
