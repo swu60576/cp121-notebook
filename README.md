@@ -1,9 +1,11 @@
 # cp121 notebook topics (that will be) covered
 > update : all source code from lab1 - lab5 is uploaded
-## - [x] 0. [basics](0-basics.md)
+## 0. [basics](0-basics.md)
+- [x] 
 * undeclared, declared, initialized
 * order of evaluation
-## - [] 1. [datatypes and operators](1-data.md)
+## 1. [datatypes and operators](1-data.md)
+- [] 
 * primitive
 * container
 * object
