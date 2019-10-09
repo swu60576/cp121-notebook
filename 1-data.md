@@ -205,15 +205,17 @@ print(bob[1]) // print รหัสของ bob
 print(bob[2]) // print เกรดของ bob
 
 //object way
-let alice = [
+let alice = {
           name: 'alice',
           id: '61567',
           grade: 3.54
-          ]
-// s2 เป็น array ที่เก็บข้อมูลของนักเรียนชื่อ alice รหัส 61567 เกรด 3.54 ถ้าอยากเข้าถึงข้อมูลของ alice
+          }
+// alice เป็น object ที่เก็บข้อมูลของนักเรียนชื่อ alice รหัส 61567 เกรด 3.54 ถ้าอยากเข้าถึงข้อมูลของ alice
 print(alice.name) // print ชื่อของ alice
 print(alice.id) // print รหัสของ alice
 print(alice.grade) // print เกรดของ alice
 ```
 
 ก็จะรู้สึกว่าใช้ object แล้วอ่านเข้าใจมากกว่าล่ะนะ
+
+เรื่องของบทนี้ก็ประมาณนี้ล่ะนะ 
