@@ -14,6 +14,13 @@
     - ตัวอักษร เช่น `'a'`, `'hello world'` 
   * NaN 
     - ไม่ใช่ตัวเลข 
-* container 
-  * array 
+* data structure 
+  * array
+    - ถึงแม้ว่าใน js ถ้าเราทำแบบนี้
+    ```javascript
+    let a = [1,2,3]
+    print(typeof(a))
+    //object 
+    //แต่เราจะศึกษาในความเป็น array ของมันอยู่
+    ```
 * object 
