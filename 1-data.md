@@ -200,9 +200,9 @@ let bob = [
           ]
           
 // bob เป็น array ที่เก็บข้อมูลของนักเรียนชื่อ bob รหัส 61234 เกรด 3.45 ถ้าอยากเข้าถึงข้อมูลของ bob
-print(bob[0]) // print ชื่อของ bob
-print(bob[1]) // print รหัสของ bob
-print(bob[2]) // print เกรดของ bob
+print(bob[0]) // print ชื่อของ bob, print ค่าที่ index 0 ของ array bob
+print(bob[1]) // print รหัสของ bob, print ค่าที่ index 1 ของ array bob
+print(bob[2]) // print เกรดของ bob, print ค่าที่ index 2 ของ array bob
 
 //object way
 let alice = {
@@ -212,9 +212,9 @@ let alice = {
           }
           
 // alice เป็น object ที่เก็บข้อมูลของนักเรียนชื่อ alice รหัส 61567 เกรด 3.54 ถ้าอยากเข้าถึงข้อมูลของ alice
-print(alice.name) // print ชื่อของ alice
-print(alice.id) // print รหัสของ alice
-print(alice.grade) // print เกรดของ alice
+print(alice.name) // print ชื่อของ alice, print attribute name ของ object alice
+print(alice.id) // print รหัสของ alice, print attribute id ของ object alice
+print(alice.grade) // print เกรดของ alice, print attribute grade ของ object alice
 ```
 ก็จะรู้สึกว่าใช้ object แล้วอ่านเข้าใจมากกว่าล่ะนะ
 
