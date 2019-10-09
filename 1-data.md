@@ -37,7 +37,7 @@ print(b + a)
 print(a - b)
 print(b - a)
 ```
-จะเห็นว่า `a + b`, `b + a` print ค่าออกมาได้ แต่ `a - b`, `b - a` print ค่าออกมาเป็น NaN ก็เพราะ คอมพิวเตอร์(ในภาษา js) นั้น
+จะเห็นว่า `a + b`, `b + a` print ค่าออกมาได้ แต่ `a - b`, `b - a` print ค่าออกมาเป็น `NaN` ก็เพราะ คอมพิวเตอร์(ในภาษา js) นั้น
 * เข้าใจว่า string + number หมายถึงอะไร (เอา string ต่อด้วย number)
 * เข้าใจว่า number + string หมายถึงอะไร (เอา number ต่อด้วย string)
 * ไม่เข้าใจว่า string - number หมายถึงอะไร
