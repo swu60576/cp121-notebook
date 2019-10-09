@@ -164,7 +164,7 @@ print(typeof(a))
 a = a.toString()
 print('typeof a:' + typeof(a))
 
-print('typeof b:' + typeof(a))
+print('typeof b:' + typeof(b))
 b.pen(green)
 
 print('typeof pikachuu:' + typeof(pikachuu))
