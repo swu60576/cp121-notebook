@@ -207,7 +207,7 @@ print(bob[2]) // print เกรดของ bob
 //object way
 let alice = {
           name: 'alice',
-          id: '61567',
+          id: 61567,
           grade: 3.54
           }
 // alice เป็น object ที่เก็บข้อมูลของนักเรียนชื่อ alice รหัส 61567 เกรด 3.54 ถ้าอยากเข้าถึงข้อมูลของ alice
