@@ -10,7 +10,7 @@
     } else {
       //block3
     }
-    //ตอนตัดสิน if else จะเลือกเข้า block ใด block หนึ่งเท่านั้น 
+    //จะเข้า block แรก ที่ condition เป็นจริง เพียง block เดียวเท่านั้น
     ```
 3. การใช้ `&&` กับ `||` ในการเชื่อม condition 
 
@@ -27,12 +27,7 @@ if (a < b) {
     print(a + ' มากกว่า ' + b)
 }
 ```
-ในการเปรียบเทียบตัวเลข เราสามารถใช้เครื่องหมายเปรียบเทียบอย่าง 
-* relational 
-    * `<`, `>`, `<=`, `>=`, 
-* equilty
-    * `==`, `!=` 
-ได้ทั้งหมด แต่ถ้าเป็น string การใช้ relational กับ equilty จะเป็นการเปรียบเทียบที่ต่างกัน เช่น 
+แต่ถ้าเป็น string ต้องระวัง เพราะการใช้ การใช้เครื่องหมายเปรียบเทียบอาจมีความหมายต่างกัน 
 ```javascript
 let word1 = 'snow'
 let word2 = 'sunny'
@@ -60,5 +55,21 @@ if (word2 > 'snow') {
 print('3 snowing >')
 } else {
 print('3 not snowing >')
+}
+```
+ก็คือ นิพจน์ `string1 < string2`, `string1 > string2` เป็นการเทียบว่า จำนวนตัวอักษร (`string.length`) อันไหนมากกว่ากัน ไม่ใช่การเปรียบเทียบว่า เป็นคำที่เหมือนกัน หรือไม่เหมือนกัน แบบ `string1 == string2` , `string1 != string2`
+
+## 2. การเลือกเข้า block ใด block หนึ่งเพียงอย่างเดียว
+ตัวอย่างจาก lab ซัก lab ที่เป็นประมาณนี้
+```javascript
+// x % y หมายถึง การหาว่า x หารด้วย y มีเศษเป็นอะไร
+for (let i = 1; i <= 100; i++) {
+    if (i % 5 == 0) {
+        print(i + ' is divided by 5')
+    } else if (i % 10 == 0) {
+        print(i + ' is divided by 10')
+    } else if (i % 40 == 0) {
+        print(i + ' is divided by 40')
+    }
 }
 ```
