@@ -2,7 +2,7 @@
 > update : all source code from lab1 - lab5 is uploaded
 ### raodmap สรุป
   - [x] basics
-  - [ ] datatypes and operators
+  - [x] datatypes and operators
   - [ ] function
   - [ ] if-else
   - [ ] loop
