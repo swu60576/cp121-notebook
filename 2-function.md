@@ -28,7 +28,7 @@ return_name('hello world')
 จะเห็นว่ามัน print ออกมาแค่ครั้งเดียว ทั้งที่เราเรียกใช้ทั้ง function no_return_name และ return_name
 ต่อไปจะเป็นความต่างของ no return และ return function 
 ```javascript
-//ต่อจากข้างบน
+//วางโค้ดต่อจากข้างบน
 let a = no_return_name('hello world')
 let b = return_name('hello world')
 print('a: ' + a)
