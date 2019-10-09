@@ -1,7 +1,7 @@
 # Datatype and Operators 
 สิ่งที่เราเขียนไป มันได้อะไรออกมา 
 
-## Datatypes
+## Datatypes and Operators
 จะเขียนถึง datatype หลักๆ ที่เราเคยเจอกันไป ในขอบเขตของภาษา javscript นะ 
 ซึ่งก็จะมี 
 * primitive
