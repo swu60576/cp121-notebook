@@ -36,8 +36,6 @@ print('type a:' + typeof(a))
 print('b: ' + b)
 print('type b:' + typeof(b))
 
-หรือเราจะทำแบบนี้ก็ได้ 
+//หรือเราจะทำแบบนี้ก็ได้ 
 print(return_name('แบบนี้ก็ได้'))
-
-
 ```
