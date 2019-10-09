@@ -78,4 +78,6 @@ print(fibo(6))
 สีส้ม = ค่าที่การ return จาก function นั้น
 ![recursive_fibo](recursive_fibo.jpg)
 
+ที่ทำ `fibo(n-1)` ก่อน `fibo(n-2)` ก็เพราะ `+` ทำจากซ้ายไปขวา 
+
 ก็จะขอจบเรื่องของ function ไว้เพียงเท่านี้ 
