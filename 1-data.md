@@ -91,6 +91,7 @@ let d = a - b
 * เอา `boolean (&&, ||) boolean` นิพิจน์นั้นก็จะมีค่าเป็นค่าความจริง และมี type เป็น boolean (`true`, `false`)
 
 ```javascript
+//ตัวอย่างนิพจน์ที่มีความหมาย
 print(5 - 2)
 print(typeof(5 - 2))
 print('hello ' + 555)
@@ -102,6 +103,16 @@ print(typeof(6 < 2))
 print(5 > 3 && 6 < 2)
 print(typeof(5 > 3 && 6 < 2))
 //ลองคิดลำดับการคำนวณของ 5 > 3 && 6 < 2 ดูนะ
+
+/ตัวอย่างนิพจน์ที่ไม่มีความหมาย
+print('hello' - 5)
+print(typeof('hello' - 5))
+print(5 >= 'hello')
+print(typeof(5 >= 'hello')
+print('hello' % 10)
+print(typeof('hello' % 10))
+print('hello' * '5')
+print(typeof('hello' * '5'))
 ```
 
 ข้างบนคือตัวอย่างของกรณีที่ datatype ของ operand และ operator เข้ากัน (ไม่เข้ากันก็อย่าง `string - number`) <br />
