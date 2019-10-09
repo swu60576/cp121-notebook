@@ -162,13 +162,15 @@ let pikachuu = {
 
 print(typeof(a))
 a = a.toString()
-print(typeof(a))
+print('typeof a:' + typeof(a))
 
+print('typeof b:' + typeof(a))
 b.pen(green)
 
+print('typeof pikachuu:' + typeof(pikachuu))
 print(pikachuu.name)
 pikachuu.ulti(100)
-}
+
 ```
 ก็คือ `a` เป็นตัวแปร primitive number ธรรมดา `b` เป็น object class Turtle และ`pikachuu` เป็น object ที่เรากำหนดขึ้นมาเองโดยไม่ได้กำหนด class
 ซึ่งจะเห็นว่าเราสามารถทำอะไรกับตัวแปร `a`, `b`, `pikachuu` ได้ต่างกัน โดยใช้ `.` dot operator 
