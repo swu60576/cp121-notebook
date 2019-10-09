@@ -7,7 +7,7 @@
 ## โครงสร้างของ function
 
 * parameter และ argument
-    * paremeter เป็นตัวบอกว่า เราต้องการรับอะไรมาใช้ใน function บ้าง
+    * paremeter เป็นตัวบอกว่าเราต้องการรับอะไรมาใช้ใน function บ้าง
     * argument คือสิ่งที่เราส่งเข้าไปเพื่อใช้มันใน function 
 
 ```javascript
@@ -46,12 +46,13 @@ print(return_name('แบบนี้ก็ได้'))
 ```javascript
 you = 'you'
 
+//name is parameter of function hello
 function hello(name) {
 let word = 'hello '
 print(word + name)
 }
 
-
+//you is argument
 hello(you)
 print(word) // error เข้าถึงตัวแปร word จากข้างนอกฟังก์ชันไม่ได้
 ```
@@ -77,14 +78,4 @@ print(fibo(6))
 สีส้ม = ค่าที่การ return จาก function นั้น
 ![recursive_fibo](recursive_fibo.jpg)
 
-ซึ่งก็คือประมาณนี้
-* fibo(6) //เข้า else block
-   * fibo(4) // ทำ fibo 4 ก่อนเพราะ operator `+` ทำจากซ้ายไปขวา, เข้า else block
-      * fibo(3) // ทำ fibo 3 ก่อนเพราะ operator `+` ทำจากซ้ายไปขวา, เข้า else block
-         * fibo(2) // ทำ fibo 2 ก่อนเพราะ operator `+` ทำจากซ้ายไปขวา, เข้า else if block return 1
-         * fibo(1) // ทำ fibo 1 ที่เป็น operand ด้านขวาของ `+` ต่อ, เข้า if block return 0
-      * fibo(3) return 1 + 0 // จาก fibo(3) return fibo(2) + fibo(1)
-   * fibo(3) // ทำ fibo 3  ทำ fibo 3 ที่เป็น operand ด้านขวาของ `+` ต่อ, เข้า else block
-      * fibo(2) // ทำ fibo 2 ก่อนเพราะ operator `+` ทำจากซ้ายไปขวา, เข้า else if block return 1
-      * fibo(1) // ทำ fibo 1 ที่เป็น operand ด้านขวาของ `+` ต่อ, เข้า if block return 0
-    * fibo(3) return 1 + 0 // จาก fibo(3) return fibo(2) + fibo(1)
+ก็จะขอจบเรื่องของ function ไว้เพียงเท่านี้ 
