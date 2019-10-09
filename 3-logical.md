@@ -35,30 +35,30 @@ if (a < b) {
 ได้ทั้งหมด แต่ถ้าเป็น string การใช้ relational กับ equilty จะเป็นการเปรียบเทียบที่ต่างกัน เช่น 
 ```javascript
 let word1 = 'snow'
-let word2 = 'rain'
+let word2 = 'sunny'
 
 if (word1 == 'snow') {
-print('snowing ==')
+print('0 snowing == ')
 } else {
-print('not snowing ==')
+print('0 not snowing ==')
 }
 
 if (word2 == 'snow') {
-print('snowing ==')
+print('1 snowing ==')
 } else {
-print('not snowing 1 ==')
+print('1 not snowing ==')
 }
 
 
-if (word1 <= 'snow') {
-print('snowing 2 <=')
+if (word1 > 'snow') {
+print('2 snowing >')
 } else {
-print('not snowing 1 <=')
+print('2 not snowing > ')
 }
 
-if (word2 >= 'snow') {
-print('snowing >= 1')
+if (word2 > 'snow') {
+print('3 snowing >')
 } else {
-print('not snowing >= 1')
+print('3 not snowing >')
 }
 ```
