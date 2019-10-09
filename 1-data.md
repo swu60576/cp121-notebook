@@ -152,8 +152,8 @@ array ของ js ตอนนี้ก็ไม่มีอะไรมาก 
 let a = 5
 let b = new Turtle()
 let pikachuu = {
- name: 'pikachu',   
  //name is pikachuu's attribute
+ name: 'pikachu',   
  ulti: function(elect) {
     print('release ' + elect + ' volt')
   }
@@ -174,8 +174,46 @@ pikachuu.ulti(100)
 ```
 ก็คือ `a` เป็นตัวแปร primitive number ธรรมดา `b` เป็น object class Turtle และ`pikachuu` เป็น object ที่เรากำหนดขึ้นมาเองโดยไม่ได้กำหนด class
 ซึ่งจะเห็นว่าเราสามารถทำอะไรกับตัวแปร `a`, `b`, `pikachuu` ได้ต่างกัน โดยใช้ `.` dot operator 
-* `.` dot operator 
+* `.` dot operator
   * เรากำลังจะ
-    - `object.attribute` เข้าถึง attribute ของ object
-    - `object.function()` เรียกใช้ function ของ object
+    - `variable.attribute` เข้าถึง attribute ของตัวแปร
+    - `variable.function()` เรียกใช้ function ของตัวแปร
+ 
+จากทั้งสามตัวแปร จะสังเกตว่า
+* เราสามารถใช้ function `toString()` กับ `a` ซึ่งเป็น number ได้ แต่ใช้กับ `b`, `pikachuu` ที่ไม่ใช่ number ไม่ได้ (เพราะไม่ได้ถูกกำหนดไว้)
+  * `number.toString()` หมายถึง เปลี่ยน type ของ ตัวแปร number ให้เป็น string
+* เราสามารถใช้ function `pen(color)` กับ `b` ซึ่งเป็น object class Turtle ได้ (เพราะคลาสเค้ากำหนดมาแบบนี้ เหมือนที่เราใช้ `ulti()` กับ `pikachuu` ได้)
+แต่ใช้กับ `a`, `pikachuu` ที่ไม่ใช่ object class Turtle  ไม่ได้ (เพราะไม่ได้ถูกกำหนดไว้)
+  * `Turtle.pen(color)` หมายถึง เปลี่ยนสีปากกาของเต่า (object class Turtle) ให้เป็นสี `color`
+* กับตัวแปร `pikachuu` ที่เรากำหนดขึ้นมาเองโดดๆ (นี่ไม่ใช่คลาส pikachuu นะ) เราสามารถ
+  * `pikachuu.name` : เพื่อเข้าถึงชื่อ attribute name ของตัวแปร pikachuu ตามที่เรากำหนดไว้ได้
+  * `pikachuu.ulti(elect)` : ใช้ function `ulti(elect)` ของตัวแปร pikachuu ตามที่เรากำหนดไว้ได้
+  * แน่นอนว่า number และ object class Turtle ทำทั้งสองอย่างข้างบนไม่ได้ เพราะไม่ได้ถูกกำหนดไว้
+  
+เรื่องของ object ก็ประมาณนี้ เป็น datatype ประเภทหนึ่ง ซึ่งไม่ใช่ primitive เป็นเหมือนกับ datatype ที่เรากำหนดขึ้นมาเอง แน่นอนว่าอะไรอย่าง `b + pikachuu` คงไม่ได้ให้ค่าอะไรที่เราต้องการแน่ๆ <br > 
+มองว่าที่มี object ขึ้นมาก็เพื่อให้อะไรมันสะดวกๆ มากยิ่งขึ้น สมมุติว่า ถ้าเราอยากเก็บ ข้อมูลนักเรียนคนหนึ่งโดยใช้ array กับ ใช้ object
+```javascript
+//array way
+let bob = [
+          'bob',
+           61234,
+           3.45
+          ]
+// s1 เป็น array ที่เก็บข้อมูลของนักเรียนชื่อ bob รหัส 61234 เกรด 3.45 ถ้าอยากเข้าถึงข้อมูลของ bob
+print(bob[0]) // print ชื่อของ bob
+print(bob[1]) // print รหัสของ bob
+print(bob[2]) // print เกรดของ bob
 
+//object way
+let alice = [
+          name: 'alice',
+          id: '61567',
+          grade: 3.54
+          ]
+// s2 เป็น array ที่เก็บข้อมูลของนักเรียนชื่อ alice รหัส 61567 เกรด 3.54 ถ้าอยากเข้าถึงข้อมูลของ alice
+print(alice.name) // print ชื่อของ alice
+print(alice.id) // print รหัสของ alice
+print(alice.grade) // print เกรดของ alice
+```
+
+ก็จะรู้สึกว่าใช้ object แล้วอ่านเข้าใจมากกว่าล่ะนะ
