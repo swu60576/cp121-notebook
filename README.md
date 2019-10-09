@@ -3,7 +3,7 @@
 ### raodmap สรุป
   - [x] basics
   - [x] datatypes and operators
-  - [ ] function
+  - [x] function
   - [ ] if-else
   - [ ] loop
   - [ ] base numbers
