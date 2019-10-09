@@ -185,7 +185,7 @@ pikachuu.ulti(100)
 * เราสามารถใช้ function `pen(color)` กับ `b` ซึ่งเป็น object class Turtle ได้ (เพราะคลาสเค้ากำหนดมาแบบนี้ เหมือนที่เราใช้ `ulti()` กับ `pikachuu` ได้)
 แต่ใช้กับ `a`, `pikachuu` ที่ไม่ใช่ object class Turtle  ไม่ได้ (เพราะไม่ได้ถูกกำหนดไว้)
   * `Turtle.pen(color)` หมายถึง เปลี่ยนสีปากกาของเต่า (object class Turtle) ให้เป็นสี `color`
-* กับตัวแปร `pikachuu` ที่เรากำหนดขึ้นมาเองโดดๆ (นี่ไม่ใช่คลาส pikachuu นะ) เราสามารถ
+* กับตัวแปร `pikachuu` เป็น object ที่เรากำหนดขึ้นมาเองโดดๆ (นี่ไม่ใช่คลาส pikachuu นะ) เราสามารถ
   * `pikachuu.name` : เพื่อเข้าถึงชื่อ attribute name ของตัวแปร pikachuu ตามที่เรากำหนดไว้ได้
   * `pikachuu.ulti(elect)` : ใช้ function `ulti(elect)` ของตัวแปร pikachuu ตามที่เรากำหนดไว้ได้
   * แน่นอนว่า number และ object class Turtle ทำทั้งสองอย่างข้างบนไม่ได้ เพราะไม่ได้ถูกกำหนดไว้
