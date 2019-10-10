@@ -143,7 +143,7 @@ array ของ js ตอนนี้ก็ไม่มีอะไรมาก 
 
 ## 2-Dimension array
 ถ้าเป็นสิ่งที่เราเคยเห็น ก็ matrix นั่นแหละ อย่างเช่น
-```javscript
+```javascript
 let mt2 = [[1,2], [3,4]]
 // mt2 ในรูป matrix
 // | 1  2 |
