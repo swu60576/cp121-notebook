@@ -299,8 +299,15 @@ let lookmoos = [moo1, moo2, moo3]  //array เก็บ object
 for (let i = 0; i < lookmoos.length; i++) {
  print(lookmoos[i].name)
  print(lookmoos[i].house)
- //เราทำแบบนี้ได้เพราะเรารู้ว่าตัวแปร lookmoos เป็น array ที่เก็บ object ซึ่งมี attribute name, house ถ้าหากสมมุติ lookmoos เป็น array ที่เก็บ number ธรรมดา การใช้คำสั่ง lookmoos[i].name, lookmoos[i].house จะทำให้เกิด error
+ //เราทำแบบนี้ได้เพราะเรารู้ว่าตัวแปร lookmoos เป็น array ที่เก็บ object ซึ่งมี attribute name, house 
+ //ถ้าหากสมมุติ lookmoos เป็น array ที่เก็บ number ธรรมดา การใช้คำสั่ง lookmoos[i].name, lookmoos[i].house จะทำให้เกิด error
 }
 
 ```
 เรื่องของบทนี้ก็ประมาณนี้ล่ะนะ 
+* Datatypes & Operators
+ * ระวังอย่าเขียนอะไรแบบ let x = 'hello' - 5 
+* Array, 2D Array
+ * ระวังเรื่องการเข้าถึง index, ดูให้ดีว่า loop เกิน index ที่มีรึเปล่า
+* Object
+ * ก็ object ล่ะนะ...
