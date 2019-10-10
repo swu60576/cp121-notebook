@@ -17,11 +17,11 @@
 * undeclared, declared, initialized
 * order of evaluation
 ## 1. [datatypes and operators](1-data.md)
-* primitive
-* container
-* object
-* operators
-* statement
+* - [x] Datatypes and Operators
+* - [x] Array
+* - [x] 2D array
+* - [x] Object
+* - [x] Array of Object
 ## 2. [function](2-function.md)
 * no return function
 * return function
