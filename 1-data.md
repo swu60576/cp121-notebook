@@ -306,8 +306,8 @@ for (let i = 0; i < lookmoos.length; i++) {
 ```
 เรื่องของบทนี้ก็ประมาณนี้ล่ะนะ 
 * Datatypes & Operators
- * ระวังอย่าเขียนอะไรแบบ let x = 'hello' - 5 
+  * ระวังอย่าเขียนอะไรแบบ let x = 'hello' - 5 
 * Array, 2D Array
- * ระวังเรื่องการเข้าถึง index, ดูให้ดีว่า loop เกิน index ที่มีรึเปล่า
+  * ระวังเรื่องการเข้าถึง index, ดูให้ดีว่า loop เกิน index ที่มีรึเปล่า
 * Object
- * ก็ object ล่ะนะ...
+  * ก็ object ล่ะนะ...
