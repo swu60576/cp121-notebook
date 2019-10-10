@@ -306,6 +306,8 @@ for (let i = 0; i < lookmoos.length; i++) {
  //การใช้คำสั่ง lookmoos[i].name, lookmoos[i].house จะทำให้เกิด error
 }
 
+// attribute ของ object ก็เหมือนตัวแปรๆ นึง สามารถเป็น array แล้วก็ object ได้ด้วยนะ
+
 ```
 เรื่องของบทนี้ก็ประมาณนี้ล่ะนะ 
 * Datatypes & Operators
