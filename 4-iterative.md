@@ -19,7 +19,7 @@ while (a != 7) {
 print('a lucky ' + a)
 
 ```
-เหมือนกับ `if (condition)` `condition` ของ `while (condition)` นี้ก็ควรเป็จ(นิพจน์)[https://github.com/swu60576/cp121-notebook/blob/master/1-data.md#%E0%B8%97%E0%B8%B3%E0%B9%84%E0%B8%A1%E0%B9%80%E0%B8%A3%E0%B8%B2%E0%B8%96%E0%B8%B6%E0%B8%87%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%84%E0%B8%B3%E0%B8%99%E0%B8%B6%E0%B8%87%E0%B9%80%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87-datatype-%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-]ที่มีค่าความจริงเหมือนกัน
+เหมือนกับ `if (condition)` `condition` ของ `while (condition)` นี้ก็ควรเป็น [นิพจน์](https://github.com/swu60576/cp121-notebook/blob/master/1-data.md#%E0%B8%97%E0%B8%B3%E0%B9%84%E0%B8%A1%E0%B9%80%E0%B8%A3%E0%B8%B2%E0%B8%96%E0%B8%B6%E0%B8%87%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%84%E0%B8%B3%E0%B8%99%E0%B8%B6%E0%B8%87%E0%B9%80%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87-datatype-%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-)ที่มีค่าความจริงเหมือนกัน
 
 ### โครงสร้างของ for loop ก็คือ
 ```javascript
@@ -137,3 +137,5 @@ print(alpha[i])
 //loop เกิน index 
 }
 ``` 
+
+เรื่อง loopๆ ก็ประมาณนี้แหละ 
