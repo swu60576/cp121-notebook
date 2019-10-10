@@ -9,7 +9,10 @@
 * parameter และ argument
     * paremeter เป็นตัวบอกว่าเราต้องการรับอะไรมาใช้ใน function บ้าง
     * argument คือสิ่งที่เราส่งเข้าไปเพื่อใช้มันใน function 
-
+* return และ no return
+    * หากเรา return ค่าออกมาจาก function เราสามารถกำหนดค่าให้ตัวแปรด้วยการเรียกใช้ function นั้นได้
+       * และ function นั้นจะถือว่าเป็นนิพจน์ที่มีค่า เป็นค่าเดียวกับที่ function นั้น return ออกมา
+    * หากเราไม่ return ค่าออกมาจาก function เราจะไม่สามารถกำหนดค่าให้ตัวแปรด้วยการเรียกใช้ function นั้นได้
 ```javascript
 function no_return_name(parameter) {
   print(parameter)
