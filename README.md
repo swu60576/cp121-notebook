@@ -1,6 +1,6 @@
 # cp121 notebook topics (that will be) covered
 > update : all source code from lab1 - lab5 is uploaded
-### raodmap สรุป
+### roadmap สรุป
   - [x] basics
   - [x] datatypes and operators
   - [x] function
