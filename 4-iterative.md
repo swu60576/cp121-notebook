@@ -88,7 +88,7 @@ print(i)
 * infinity loop 
 
 ### ของ while loop
-เพราะว่าเวลาใช้ while loop เราไม่ได้กำหนด step ไวตั้งแต่แรก ก็เลยมีโอกาสมากที่เราจะทำให้ while กลายเป็น infinity loop เพราะไม่ได้อัพเดทค่า เช่น
+เพราะว่าเวลาใช้ while loop เราไม่ได้กำหนด step ไว้ตั้งแต่แรก ก็เลยมีโอกาสมากที่เราจะทำให้ while กลายเป็น infinity loop เพราะไม่ได้อัพเดทค่า เช่น
 ```javascript
 let a = random(1,8)
 while (a != 7) {
