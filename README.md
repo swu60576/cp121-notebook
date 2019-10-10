@@ -4,7 +4,7 @@
   - [x] basics
   - [x] datatypes and operators
   - [x] function
-  - [ ] if-else
+  - [x] if-else
   - [ ] loop
   - [ ] base numbers
 ### roadmap อธิบาย lap 
