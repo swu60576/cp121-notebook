@@ -299,8 +299,10 @@ let lookmoos = [moo1, moo2, moo3]  //array เก็บ object
 for (let i = 0; i < lookmoos.length; i++) {
  print(lookmoos[i].name)
  print(lookmoos[i].house)
- //เราทำแบบนี้ได้เพราะเรารู้ว่าตัวแปร lookmoos เป็น array ที่เก็บ object ซึ่งมี attribute name, house 
- //ถ้าหากสมมุติ lookmoos เป็น array ที่เก็บ number ธรรมดา การใช้คำสั่ง lookmoos[i].name, lookmoos[i].house จะทำให้เกิด error
+ //เราทำแบบนี้ได้เพราะเรารู้ว่าตัวแปร lookmoos เป็น array ที่เก็บ object ซึ่งมี attribute name, house
+ 
+ //ถ้าหากสมมุติ lookmoos เป็น array ที่เก็บตัวแปรที่เป็น datatype อื่นๆ (เช่น number, string) ที่ไม่ได้ถูกกำหนดให้มี attribute name, house
+ //การใช้คำสั่ง lookmoos[i].name, lookmoos[i].house จะทำให้เกิด error
 }
 
 ```
