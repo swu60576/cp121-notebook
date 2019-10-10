@@ -16,5 +16,5 @@
 เหมือนกัน -> 0, ต่างกัน -> 1
 ### ตาราง
 &, |, ^ truth table
-&, |, ^ ![truth table](Screen Shot 2019-10-11 at 01.57.28.png)
+&, |, ^ ![truth table](bitwise_ope.png)
 ### sum (+) 
