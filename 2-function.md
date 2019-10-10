@@ -76,8 +76,8 @@ function fibo(n) {
 print(fibo(6))
 
 ```
-โดยลำดับ function call และค่าของมันก็จะเป็นแบบนี้
-สีแดง = ลำดับของ function call
+โดยลำดับ function call และค่าของมันก็จะเป็นแบบนี้ <br >
+สีแดง = ลำดับของ function call <br >
 สีส้ม = ค่าที่การ return จาก function นั้น
 ![recursive_fibo](recursive_fibo.jpg)
 
