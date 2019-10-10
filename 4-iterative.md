@@ -1,7 +1,7 @@
 # Loops
 ก็จะพูดถึง while loop และ for loop กัน ทั้งที่เราสามารถเปลี่ยนการทำงานจาก while loop <-> for loop ได้ แล้วทำไมเราถึงต้องเลือกใช้อันใดอันหนึ่งล่ะ ? <br >
 ## while loop และ for loop 
-### โครงสร้างของ while loop ก็คือ 
+### โครงสร้างของ while loop
 ```javascript
 while (condition) {
   // do this block if (condition == true)
@@ -21,7 +21,7 @@ print('a lucky ' + a)
 ```
 เหมือนกับ `if (condition)` `condition` ของ `while (condition)` นี้ก็ควรเป็น [นิพจน์](https://github.com/swu60576/cp121-notebook/blob/master/1-data.md#%E0%B8%97%E0%B8%B3%E0%B9%84%E0%B8%A1%E0%B9%80%E0%B8%A3%E0%B8%B2%E0%B8%96%E0%B8%B6%E0%B8%87%E0%B8%95%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%84%E0%B8%B3%E0%B8%99%E0%B8%B6%E0%B8%87%E0%B9%80%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87-datatype-%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-)ที่มีค่าความจริงเหมือนกัน
 
-### โครงสร้างของ for loop ก็คือ
+### โครงสร้างของ for loop
 ```javascript
 for(start; condition; step) {
   // do this block if (condition == true)
@@ -31,7 +31,7 @@ for(start; condition; step) {
 //ex loop เพื่อหา factorial
 let a = 5
 
-//loopนี้จะทำที่ i =  4, 3, 2 เพราะเราต้องการให้ได้ factorial 5 * 4 * 3 * 2
+//loop นี้จะทำที่ i =  4, 3, 2 เพราะเราต้องการให้ได้ factorial 5 * 4 * 3 * 2
 //start คือ let i = a - 1 เพราะเพรามี 5 (ตัวแรก) อยู่แล้ว และ a - 1 คือ ตัวที่สองที่เราอยากเอามาคูณกับตัวแรก
 //condition คือ i >= 2 เพราะเราไม่ต้องการ i == 1 เพราะการคูณด้วย 1 ไม่มีความหมายอะไร 
 //step คือ i-- เพราะเราต้องการ loop จาก 4 ไปจนถึง 2 
