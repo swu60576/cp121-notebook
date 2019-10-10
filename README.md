@@ -6,7 +6,6 @@
   - [x] function
   - [x] if-else
   - [x] loop
-  - [ ] base numbers
 ### roadmap อธิบาย lap 
   - [ ] lab1
   - [ ] lab2
@@ -33,13 +32,5 @@
 * - [x] while loop และ for loop
 * - [x] ควรใข้อะไรตอนไหน
 * - [x] เรื่องควรระวัง 
-## 5. [base numbers](6-base.md)
-* decimal
-* binary
-* binary fraction
-* hexadecimal
-* base nunber convertion
-* binary : 2's complement
-* binray : excess n
 
 
