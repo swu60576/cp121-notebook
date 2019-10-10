@@ -57,7 +57,7 @@ print('3 snowing >')
 print('3 not snowing >')
 }
 ```
-ก็คือ นิพจน์ `string1 < string2`, `string1 > string2` เป็นการเทียบว่า จำนวนตัวอักษร (`string.length`) อันไหนมากกว่ากัน ไม่ใช่การเปรียบเทียบว่า เป็นคำที่เหมือนกัน หรือไม่เหมือนกัน แบบ `string1 == string2` , `string1 != string2`
+ก็คือ นิพจน์ `string1 < string2`, `string1 > string2` เป็นการเทียบว่า จำนวนตัวอักษร (`string.length`) ไม่ใช่การเปรียบเทียบว่า เป็นคำที่เหมือนกัน หรือไม่เหมือนกัน แบบ `string1 == string2` , `string1 != string2`
 
 ## 2. การเลือกเข้า block ใด block หนึ่งเพียงอย่างเดียว
 ตัวอย่างจาก lab ซัก lab ที่เป็นประมาณนี้
