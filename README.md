@@ -23,13 +23,12 @@
 * - [x] Object
 * - [x] Array of Object
 ## 2. [function](2-function.md)
-* no return function
-* return function
-* recursive function
+* - [x] โครงสร้างของ function
+* - [x] recursive function
 ## 3. [logical operations](3-logical.md) ( if - else )
-* basic if else if else
-* nested
-* using compound logical statement
+* - [x] basic if else if else
+* - [x] nested
+* - [x] using `&&`, `||` to prevent nested if 
 ## 4. [iterative operations](4-iterative.md) ( loop )
 * while loop
 * for loop
