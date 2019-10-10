@@ -14,8 +14,8 @@
   - [ ] lab4
   - [ ] lab5
 ## 0. [basics](0-basics.md)
-* undeclared, declared, initialized
-* order of evaluation
+* - [x] undeclared, declared, initialized
+* - [x] order of evaluation
 ## 1. [datatypes and operators](1-data.md)
 * - [x] Datatypes and Operators
 * - [x] Array
