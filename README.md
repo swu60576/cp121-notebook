@@ -5,7 +5,7 @@
   - [x] datatypes and operators
   - [x] function
   - [x] if-else
-  - [ ] loop
+  - [x] loop
   - [ ] base numbers
 ### roadmap อธิบาย lap 
   - [ ] lab1
@@ -30,9 +30,9 @@
 * - [x] nested
 * - [x] using `&&`, `||` to prevent nested if 
 ## 4. [iterative operations](4-iterative.md) ( loop )
-* - [ ] while loop
-* - [ ] for loop
-* - [ ] ใข้อันไหนดี
+* - [ ] while loop และ for loop
+* - [ ] ควรใข้อะไรตอนไหน
+* - [ ] เรื่องควรระวัง 
 ## 5. [base numbers](6-base.md)
 * decimal
 * binary
