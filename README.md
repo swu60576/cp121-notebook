@@ -30,9 +30,9 @@
 * - [x] nested
 * - [x] using `&&`, `||` to prevent nested if 
 ## 4. [iterative operations](4-iterative.md) ( loop )
-* - [ ] while loop และ for loop
-* - [ ] ควรใข้อะไรตอนไหน
-* - [ ] เรื่องควรระวัง 
+* - [x] while loop และ for loop
+* - [x] ควรใข้อะไรตอนไหน
+* - [x] เรื่องควรระวัง 
 ## 5. [base numbers](6-base.md)
 * decimal
 * binary
