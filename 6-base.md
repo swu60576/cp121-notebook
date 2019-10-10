@@ -15,6 +15,5 @@
 ### xor (^)
 เหมือนกัน -> 0, ต่างกัน -> 1
 ### ตาราง
-&, |, ^ truth table
-&, |, ^ ![truth table](bitwise_ope.png)
+&, |, ^ truth table ![truth table](bitwise_ope.png)
 ### sum (+) 
